@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Properties | UrbanVista</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/red-rose" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header/Navbar (same as home) -->
+  <header>
+    <div class="logo">
+      <h2>UrbanVista</h2>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Properties Hero Section -->
+  <section class="property-hero">
+    <div class="property-hero-bg"></div>
+    <div class="property-hero-content">
+      <h1>Our Featured Properties</h1>
+      <p>
+        Explore a curated selection of homes and apartments in prime locations.<br>
+        Find the perfect property that matches your lifestyle and budget.
+      </p>
+    </div>
+  </section>
+
+  <!-- Properties Grid Section -->
+  <div class="property-section">
+    <div class="property-header">
+      <div>
+        <h2>Available Listings</h2>
+        <p>
+          Each listing offers unique features, exceptional quality, and prime locations,<br>
+          ensuring an exclusive living experience.
+        </p>
+      </div>
+    </div>
+    <div class="property-grid">
+      <!-- Property Card 1 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 3.jpg" alt="House 1">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$3,56798.00</span>
+            <span class="address">123 Maple Street, New York</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 2 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 1.jpg" alt="House 2">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$2,49089.99</span>
+            <span class="address">789 Forest Lane, Denver, CO</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 3 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 2.jpg" alt="House 3">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$4,56745.00</span>
+            <span class="address">123 Serenity Drive, Austin, TX</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add more property cards as needed -->
+    </div>
+  </div>
+
+  <!-- Footer (same as home) -->
+  <div class="footer-nav">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="properties.html" class="active">Properties</a>
+    </div>
+    <div class="footer-logo">UrbanVista</div>
+    <div class="footer-links">
+      <a href="#">Gallery</a>
+      <a href="#">FAQ</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 UrbanVista. All rights reserved.</span>
+    <span>
+      <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+    </span>
+  </div>
+
+  <!-- Property Details Modal -->
+  <div id="propertyModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-images">
+        <img id="modalMainImg" src="" alt="Property Main Image">
+        <div class="modal-thumbs" id="modalThumbs"></div>
+      </div>
+      <div class="modal-details">
+        <h2 id="modalTitle"></h2>
+        <p id="modalAddress"></p>
+        <div class="modal-features" id="modalFeatures"></div>
+        <div class="modal-price" id="modalPrice"></div>
+        <p id="modalDescription"></p>
+        <button class="modal-book-btn">Book Now</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

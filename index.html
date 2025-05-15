@@ -1,31 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UrbanVista</title>
-  <link rel="stylesheet" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/red-rose" rel="stylesheet">
+  <script src="https://use.typekit.net/your-kit-id.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-  <div class="background-images">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>  
+
+  <!-- Header -->
   <header>
     <div class="logo">
       <h2>UrbanVista</h2>
     </div>
-    <div class="navbar">
+    <nav class="navbar">
       <ul class="nav-links">
-        <li><a href="" class="active">Home</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Properties</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
+
+  <!-- Image Slider -->
+  <div class="slider">
+    <div class="slider-content">
+      <h1>Find Your Dream Property in<br>Just a Few Clicks.</h1>
+      <p>Own your story. Own your home. Start your real estate journey with confidence and clarity.</p>
+    </div>
+
+    <div class="slide active">
+      <img src="Assets/bg home 4.jpg" alt="Urban background 1" />
+    </div>
+    <div class="slide">
+      <img src="Assets/bg home 2.jpg" alt="Urban background 2" />
+    </div>
+    <div class="slide">
+      <img src="Assets/bg home 3.jpg" alt="Urban background 3" />
+    </div>
+  </div>
+
+  <!--Container-->
+
+  <div class="custom-box">
+    <h2>Your Next Investment May Redefine "Home."</h2>
+    <div class="custom-box-content">
+      <!-- Left Image -->
+      <div class="cbc-img">
+        <img src="Assets/container img 1.png" alt="Property 1">
+      </div>
+      <!-- Center Text Box -->
+      <div class="cbc-center">
+        <h3>Big things come with bold choices.</h3>
+        <p>
+          With refined design and smart architecture, even compact spaces can feel grand. Your next luxury escape might be smaller than you think.
+        </p>
+        <button>Explore Properties</button>
+      </div>
+      <!-- Right Info Box -->
+      <div class="cbc-right">
+        <img src="Assets/container img 2.png" alt="Property 2">
+        <div class="cbc-price">Pricing Starts At ₹50k</div>
+        <div class="cbc-tags">
+          <span>Furnished</span>
+          <span>Luxury</span>
+          <span>Verified</span>
+        </div>
+        <p class="cbc-desc">
+          Crafted with precision and designed for distinction, this space redefines contemporary living. From premium finishes to thoughtfully curated layouts, every detail reflects a commitment to timeless sophistication and unmatched comfort.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="property-section">
+    <div class="property-header">
+      <div>
+        <h2>Explore our Properties</h2>
+        <p>
+          Each listing offers unique features, exceptional quality, and prime locations,<br>
+          ensuring an exclusive living experience.
+        </p>
+      </div>
+      <a href="properties.html" class="see-all-btn">See All Properties &rarr;</a>
+    </div>
+    <div class="property-grid">
+      <!-- Property Card 1 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 3.jpg" alt="House 1">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$3,56798.00</span>
+            <span class="address">123 Maple Street, New York</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 2 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 1.jpg" alt="House 2">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$2,49089.99</span>
+            <span class="address">789 Forest Lane, Denver, CO</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 3 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 2.jpg" alt="House 3">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$4,56745.00</span>
+            <span class="address">123 Serenity Drive, Austin, TX</span>
+          </div>
+        </div>
+      </div>
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 3.jpg" alt="House 1">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$3,56798.00</span>
+            <span class="address">123 Maple Street, New York</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 2 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 1.jpg" alt="House 2">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$2,49089.99</span>
+            <span class="address">789 Forest Lane, Denver, CO</span>
+          </div>
+        </div>
+      </div>
+      <!-- Property Card 3 -->
+      <div class="property-card">
+        <div class="property-img">
+          <img src="Assets/property 2.jpg" alt="House 3">
+          <span class="badge">For Sale</span>
+        </div>
+        <div class="property-info">
+          <div class="features">
+            <span>🛏 5 Bedrooms</span>
+            <span>🛁 2 Bathroom</span>
+          </div>
+          <h3>The Pinnacle at Highland Park</h3>
+          <div class="price-address">
+            <span class="price">$4,56745.00</span>
+            <span class="address">123 Serenity Drive, Austin, TX</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add 3 more cards as needed, or use a loop if using a framework -->
+    </div>
+  </div>
+
+  <div class="testimonial-section">
+    <div class="testimonial-header">
+      <div>
+        <h2>What our clients say<br>about us</h2>
+      </div>
+      <div class="testimonial-reviews">
+        <div class="testimonial-avatars">
+          <img src="Assets/client 1.jpg" alt="Client 1">
+          <img src="Assets/client 2.jpg" alt="Client 2">
+          <img src="Assets/client 3.jpg" alt="Client 3">
+          <img src="Assets/client 4.jpg" alt="Client 4">
+        </div>
+        <div class="testimonial-count">
+          <span>More than <b>500+</b><br>Client Reviews</span>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-content single">
+      <div class="testimonial-card active">
+        <img class="testimonial-photo" src="Assets/client 1.jpg" alt="Bindu">
+        <div class="testimonial-quote">
+          <span class="quote-mark">"</span>
+          <p>
+            Working with this team was a pleasure. They understood our vision and helped us find a property that exceeded our expectations. We couldn't have done it without them!
+          </p>
+          <div class="testimonial-author">
+            <b>Bindu</b><br>
+            <span>UI UX Designer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>Ready to Make Your Dream<br>Property a Reality?</h1>
+      <p>Explore a curated selection of properties that align with your vision and goals.</p>
+      <a href="#" class="hero-btn">Get Started &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Info Bar -->
+  <div class="info-bar">
+    <div class="info-left">
+      <h2>Discover Nature's <span>Wonders</span><br>with Expert Guidance</h2>
+    </div>
+    <div class="info-right">
+      <p>12345, Belagavi, Hanuman Nagar,<br>India.</p>
+      <p class="info-phone">(+91)123456789</p>
+    </div>
+  </div>
+
+  <!-- Navigation/Footer Bar -->
+  <div class="footer-nav">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="properties.html">Properties</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-logo">UrbanVista</div>
+    <div class="footer-links">
+      <a href="faq.html">FAQ</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 UrbanVista. All rights reserved.</span>
+    <span>
+      <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+    </span>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
